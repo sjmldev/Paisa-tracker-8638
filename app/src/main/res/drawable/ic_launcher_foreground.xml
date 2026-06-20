@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Card Glow / Shadow background -->
+    <path
+        android:pathData="M30,32 C30,28.7 32.7,26 36,26 H72 C75.3,26 78,28.7 78,32 V68 C78,71.3 75.3,74 72,74 H36 C32.7,74 30,71.3 30,68 Z"
+        android:fillColor="#241B3B" />
+
+    <!-- Card Base with Warm Gradient -->
+    <path
+        android:pathData="M32,34 C32,30.7 34.7,28 38,28 H74 C77.3,28 80,30.7 80,34 V70 C80,73.3 77.3,76 74,76 H38 C34.7,76 32,73.3 32,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="28"
+                android:endX="80"
+                android:endY="76"
+                android:type="linear">
+                <item
+                    android:color="#5D3FD3"
+                    android:offset="0.0" />
+                <item
+                    android:color="#8A2BE2"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Card Aesthetic Stripe (Fintech design) -->
+    <path
+        android:pathData="M32,46 H80 V52 H32 Z"
+        android:fillColor="#4A2FBE" />
+
+    <!-- Gold Accent Tech chip -->
+    <path
+        android:pathData="M64,34 C64,32.9 64.9,32 66,32 H74 C75.1,32 76,32.9 76,34 V40 C76,41.1 75.1,42 74,42 H66 C64.9,42 64,41.1 64,40 Z"
+        android:fillColor="#FFD700" />
+
+    <!-- Solid White Rupee Symbol (₹) inside card safe bounds -->
+    <!-- Rupee Bar 1 -->
+    <path
+        android:pathData="M40,41 H56 V44 H40 Z"
+        android:fillColor="#FFFFFF" />
+    
+    <!-- Rupee Bar 2 -->
+    <path
+        android:pathData="M40,47 H52 V50 H40 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Rupee Backbone, Loop and Tail -->
+    <path
+        android:pathData="M44,41 H48 V56 H44 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M46,41 C55,41 55,53 46,53"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M46,52 L55,65"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+        
+</vector>

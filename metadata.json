@@ -1,0 +1,6 @@
+{
+  "name": "Paisa Tracker",
+  "description": "Track Every Rupee, Build Every Dream. Manage monthly budgets, achieve savings goals, and generate smart reports with ease.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
